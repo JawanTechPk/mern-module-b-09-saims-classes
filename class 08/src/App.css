@@ -1,0 +1,54 @@
+.navbar-main {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+}
+
+.hero-section-main {
+  /* position: relative; */
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-section-content {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.495);
+}
+
+.input-field {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.hero-section-content h1 {
+  color: white;
+}
+
+.btn-style {
+  all: unset;
+  background-color: blue;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  pointer-events: all;
+}
