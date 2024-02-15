@@ -113,7 +113,7 @@ import {auth} from '../config/firebase-config/index'
 ```
 
 
-## Authentication state observer
+### Authentication state observer
 For each of your app's pages that need information about the signed-in user, attach an observer to the global authentication object. This observer gets called whenever the user's sign-in state changes.
 
 Attach the observer using the `onAuthStateChanged` method. When a user successfully signs in, you can get information about the user in the observer.
@@ -138,7 +138,7 @@ Attach the observer using the `onAuthStateChanged` method. When a user successfu
  ```
 
 
- ##  Sign out / Logout User
+### Sign out / Logout User
   To sign out a user, call `signOut`:
 
 
