@@ -75,3 +75,46 @@ The `/user-github/:username` endpoint retrieves data of a GitHub user by their u
 - **cheerio**: Cheerio is used for parsing and manipulating HTML documents. It's used here to render fetched GitHub user data in an HTML template.
 #### Endpoints
 - **GET /user-github/:username**: Retrieves GitHub user data by username.
+
+
+
+### Folder Structure:
+#### (without `src` Directory)
+
+```
+project-root/
+│
+├── controllers/
+│   ├── authController.js
+│   ├── userController.js
+│   └── ...
+│
+├── models/
+│   ├── user.js
+│   ├── post.js
+│   └── ...
+│
+├── routes/
+│   ├── authRoutes.js
+│   ├── userRoutes.js
+│   └── ...
+│
+├── middleware/
+│   ├── authMiddleware.js
+│   ├── errorMiddleware.js
+│   └── ...
+│
+├── app.js
+│
+├── node_modules/
+│
+├── .env
+├── package.json
+├── README.md
+└── ...
+```
+
+In this structure:
+- The main source files such as controllers, models, routes, middleware, etc., are directly under the project root directory.
+- `app.js` (or `index.js`) is still the entry point of the application.
+- `node_modules/`, `.env`, `package.json`, `README.md`, and other configuration files remain in the project root directory.
