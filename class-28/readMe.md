@@ -1,28 +1,28 @@
-```markdown
 # Authentication System
-
 This project provides a simple authentication system built with Node.js, Express, and MongoDB.
 
-## Features
 
+#### Features
+```markdown
 - User signup: Allows users to create an account by providing basic information.
 - User login: Users can log in with their email and password to access protected resources.
 - Check authentication status: Verifies if the user is authenticated using JSON Web Tokens (JWT).
-
+```
 ## Installation
 
+```
 1. Clone the repository:
 
 ```
-git clone <repository-url>
-```
+git clone https://github.com/JawanTechPk/mern-module-b-09-saims-classes.git
 
+```
 2. Install dependencies:
 
 ```
 npm install
-```
 
+```
 3. Set up environment variables:
 
 Create a `.env` file in the root directory and add the following variables:
